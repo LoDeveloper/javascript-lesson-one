@@ -6,6 +6,7 @@ let firstName = "lorena";
 let age = "35";
 let favoriteColor = "purple";
 
+/*variables*/ 
 
 console.log(`my name is ${firstName}`);
 console.log(`my age is ${age}`);
@@ -13,11 +14,19 @@ console.log(`favorite color is ${favoriteColor}`);
 
 
 
-let myPets = 12;
-let numberOfChairs = 54;
+/*Basic operations*/ 
 
-myPets += 8;
-numberOfChairs /=2;
+let tables = 24;
+let chairs = 56;
 
-console.log(myPets);
-console.log(numberOfChairs);
+
+let addition = tables + chairs;
+let subtraction = chairs - tables;
+let multiplication = tables * chairs;
+let division = tables / chairs;
+
+
+console.log(`Addition: ${addition}`);
+console.log(`Subtraction: ${subtraction}`);
+console.log(`Multiplication: ${multiplication}`);
+console.log(`Division: ${division}`);
